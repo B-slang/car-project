@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Car Game</title>
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <div class = "Score"></div>
     <div class = "game">
         <div class = "startScreen">Welcome to Game</div>
-        <div class = "gameArea"></div>
+        <div class = "gameArea hide"></div>
 
     </div>
+    <script>
+        const score = document.querySelector(".Score");
+        const startScreen = document.querySelector(".startScreen");
+        const gameArea = document.querySelector(".gameArea");
+    </script>
 </body>
 </html>
